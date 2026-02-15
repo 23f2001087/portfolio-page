@@ -1,24 +1,42 @@
 {
-  "id": "prod-b85f54c0-001",
-  "name": "The Art of Data Science",
-  "category": "books",
-  "price": 4999.99,
-  "stock": 5,
-  "rating": 4.8
-},
-{
-  "id": "prod-b85f54c0-002",
-  "name": "Machine Learning Guide",
-  "category": "books",
-  "price": 5999.99,
-  "stock": 3,
-  "rating": 4.6
-},
-{
-  "id": "prod-b85f54c0-003",
-  "name": "Deep Learning Illustrated",
-  "category": "books",
-  "price": 4725.04,
-  "stock": 5,
-  "rating": 4.7
+  "metadata": {
+    "email": "23f2001087@ds.study.iitm.ac.in",
+    "version": "b85f54c0"
+  },
+  "products": [
+    { "id": "prod-b85f54c0-001", "name": "The Art of Data Science", "category": "books", "price": 4999.99, "stock": 5, "rating": 4.8 },
+    { "id": "prod-b85f54c0-002", "name": "Machine Learning Guide", "category": "books", "price": 5999.99, "stock": 3, "rating": 4.6 },
+    { "id": "prod-b85f54c0-003", "name": "Deep Learning Illustrated", "category": "books", "price": 4725.04, "stock": 5, "rating": 4.7 },
+
+    { "id": "prod-b85f54c0-004", "name": "Wireless Mouse", "category": "electronics", "price": 799.99, "stock": 40, "rating": 4.3 },
+    { "id": "prod-b85f54c0-005", "name": "Mechanical Keyboard", "category": "electronics", "price": 2499.99, "stock": 25, "rating": 4.5 },
+    { "id": "prod-b85f54c0-006", "name": "USB-C Charger", "category": "electronics", "price": 1199.99, "stock": 50, "rating": 4.4 },
+    { "id": "prod-b85f54c0-007", "name": "Bluetooth Headphones", "category": "electronics", "price": 3499.99, "stock": 20, "rating": 4.6 },
+    { "id": "prod-b85f54c0-008", "name": "Webcam HD", "category": "electronics", "price": 1899.99, "stock": 15, "rating": 4.2 },
+
+    { "id": "prod-b85f54c0-009", "name": "Office Chair", "category": "furniture", "price": 6999.99, "stock": 10, "rating": 4.5 },
+    { "id": "prod-b85f54c0-010", "name": "Standing Desk", "category": "furniture", "price": 15999.99, "stock": 5, "rating": 4.7 },
+    { "id": "prod-b85f54c0-011", "name": "Bookshelf", "category": "furniture", "price": 4499.99, "stock": 8, "rating": 4.3 },
+    { "id": "prod-b85f54c0-012", "name": "Table Lamp", "category": "furniture", "price": 1299.99, "stock": 30, "rating": 4.4 },
+
+    { "id": "prod-b85f54c0-013", "name": "Running Shoes", "category": "fashion", "price": 2999.99, "stock": 20, "rating": 4.6 },
+    { "id": "prod-b85f54c0-014", "name": "Denim Jacket", "category": "fashion", "price": 3499.99, "stock": 15, "rating": 4.4 },
+    { "id": "prod-b85f54c0-015", "name": "Leather Wallet", "category": "fashion", "price": 1499.99, "stock": 40, "rating": 4.3 },
+    { "id": "prod-b85f54c0-016", "name": "Sports Watch", "category": "fashion", "price": 5999.99, "stock": 10, "rating": 4.5 },
+
+    { "id": "prod-b85f54c0-017", "name": "Cookware Set", "category": "home", "price": 7999.99, "stock": 7, "rating": 4.6 },
+    { "id": "prod-b85f54c0-018", "name": "Vacuum Cleaner", "category": "home", "price": 9999.99, "stock": 6, "rating": 4.5 },
+    { "id": "prod-b85f54c0-019", "name": "Air Purifier", "category": "home", "price": 11999.99, "stock": 4, "rating": 4.7 },
+    { "id": "prod-b85f54c0-020", "name": "Water Filter", "category": "home", "price": 3499.99, "stock": 12, "rating": 4.4 },
+
+    { "id": "prod-b85f54c0-021", "name": "Yoga Mat", "category": "fitness", "price": 999.99, "stock": 35, "rating": 4.3 },
+    { "id": "prod-b85f54c0-022", "name": "Dumbbell Set", "category": "fitness", "price": 4999.99, "stock": 10, "rating": 4.6 },
+    { "id": "prod-b85f54c0-023", "name": "Resistance Bands", "category": "fitness", "price": 799.99, "stock": 50, "rating": 4.2 }
+  ],
+  "aggregations": {
+    "books": {
+      "count": 3,
+      "inventoryValue": 52626.13
+    }
+  }
 }
